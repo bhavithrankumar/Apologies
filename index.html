@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sorry 😭</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+      font-family: Arial, sans-serif;
+      overflow: hidden;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .btn {
+      padding: 12px 24px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      position: fixed; /* IMPORTANT FIX */
+    }
+
+    #yes {
+      background-color: #4CAF50;
+      color: white;
+      left: 45%;
+      top: 55%;
+    }
+
+    #no {
+      background-color: #f44336;
+      color: white;
+      left: 55%;
+      top: 55%;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pro max are u still angry with me? 😭</h1>
+    <button id="yes" class="btn">Forgive me 🙏🏻</button>
+    <button id="no" class="btn">No 😡</button>
+  </div>
+
+  <script>
+    const noBtn = document.getElementById('no');
+
+    function moveButton() {
+      const x = Math.random() * (window.innerWidth - 120);
+      const y = Math.random() * (window.innerHeight - 60);
+
+      noBtn.style.left = x + 'px';
+      noBtn.style.top = y + 'px';
+    }
+
+    // Trigger on both hover AND when mouse gets close
+    noBtn.addEventListener('mouseenter', moveButton);
+    document.addEventListener('mousemove', (e) => {
+      const rect = noBtn.getBoundingClientRect();
+      const distance = Math.hypot(e.clientX - rect.left, e.clientY - rect.top);
+
+      if (distance < 100) {
+        moveButton();
+      }
+    });
+
+    document.getElementById('yes').addEventListener('click', () => {
+      alert("Yayyy 😍 I knew u will forgive me! Sorry again 🙏🏻");
+    });
+  </script>
+</body>
+</html>
