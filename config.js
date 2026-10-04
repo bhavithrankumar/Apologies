@@ -2,15 +2,23 @@
 window.BIRTHDAY_CONFIG = {
   password: "promax",
   hint: "the name i used to call you — small case without space",
-  message: `Happy Birthday Pro Max
+  message: `Happy Birthday
 
 I just wanted to wish you and say something from my heart.
 
-I’m really sorry if I made your life difficult or caused you any trouble. I never intentionally wanted to disturb you or make things uncomfortable for you. I truly regret whatever happened.
+I’m really sorry if I made your life difficult or caused you any trouble. I never intentionally wanted to disturb you or make things uncomfortable for you. Whatever happened, na venum nu edhuvum pannala. I truly regret if I hurt you in any way.
 
-You made my life so happy during the time we had, and I’ll always be thankful for those days. I’m not expecting anything from you, and this gift is not to start anything again or continue anything between us. It’s only my way of thanking you for all the happiness you brought into my life.
+You don’t even know how much you changed my life. Unakku maybe adhu theriyama kuda irukalam, but having you in my life changed a lot of things in me and made me very happy. The time I had with you will always be something special to me.
 
-I’ll respect your space from now on and won’t disturb you again.
+I’m really grateful that you came into my life and for all the happiness you gave me, thank you so much 
 
-I hope you have a beautiful birthday and a happy life ahead. Take care ❤️`
+I’m not expecting anything from you, and this is not to start anything again or to continue anything between us. Idhu just oru small way of saying thank you for everything, ithu romba naal munnadi plan pannathu to buy a earing for you hope you know that.
+
+I’ll respect your space and I won’t disturb you again.
+
+Once again, Happy Birthday Pro Max ❤️
+
+Be happy, take care of yourself, eat well, try to sleep early, and I genuinely wish you all the happiness in your life.
+
+Take care ❤️`
 };
