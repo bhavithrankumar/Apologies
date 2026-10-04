@@ -2,7 +2,7 @@
 window.BIRTHDAY_CONFIG = {
   password: "promax",
   hint: "the name i used to call you — small case without space",
-  message: `Happy Birthday ❤️
+  message: `Happy Birthday Pro Max
 
 I just wanted to wish you and say something from my heart.
 
